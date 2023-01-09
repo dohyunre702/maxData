@@ -8,10 +8,13 @@
 ### 2. 데이터
 - MDIS 홈페이지 "국내인구이동통계(2021)" 활용
 - 자료 형태: CSV
+
   ![2021stat.csv](https://user-images.githubusercontent.com/61702307/211232602-efa14025-964d-4f7d-b3a4-eb492b72277b.png)
 - 메타데이터
+
   ![2021인구이동설계서](https://user-images.githubusercontent.com/61702307/211232668-99c7c38a-7b59-4562-8659-e4c5895f1979.PNG)
 - (참고) 행정구역 코드
+
   ![2021.6 SGIS 행정구역 코드](https://user-images.githubusercontent.com/61702307/211232869-f96e605f-0c62-44b1-8699-16cc6339406a.png)
 
 
@@ -32,12 +35,14 @@
    - 새 파일 생성하기
    - 파싱한 데이터 새 파일에 입력하기
    - `from_to_txt` 출력 결과
+   
    ![image](https://user-images.githubusercontent.com/61702307/211234637-ca72c1e1-ec9a-4734-841d-c86c88de98ea.png)
    
 2. 데이터 카운트하기
    - 시도별 이동횟수 Map으로 반환하기
    - `key`: "전입코드, 전출코드" (문자열), `value`: 횟수 (1)
    - `each_sido_cnt.txt` 출력결과
+   
    ![image](https://user-images.githubusercontent.com/61702307/211234476-f77c4224-2654-4bbe-b92a-404b4bc736ee.png)
 
 ### 5. 연관 개념 정리
